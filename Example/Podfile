@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'FUDMonitor_Example' do
+  pod 'FUDMonitor', :path => '../'
+
+  target 'FUDMonitor_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
