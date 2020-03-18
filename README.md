@@ -13,11 +13,10 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-FUDMonitor is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
+Add FUDMonitor directory to your project directly.
+Or use local pod lib
 ```ruby
-pod 'FUDMonitor'
+pod 'FUDMonitor', :path => 'path to FUDMonitor'
 ```
 
 ## Author

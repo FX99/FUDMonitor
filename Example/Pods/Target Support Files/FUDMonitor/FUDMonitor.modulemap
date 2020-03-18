@@ -1,0 +1,6 @@
+framework module FUDMonitor {
+  umbrella header "FUDMonitor-umbrella.h"
+
+  export *
+  module * { export * }
+}

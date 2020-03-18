@@ -21,22 +21,22 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/fudolan@163.com/FUDMonitor'
+  s.homepage         = 'https://github.com/FX99/FUDMonitor'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'fudolan@163.com' => 'lanfudong@58.com' }
-  s.source           = { :git => 'https://github.com/fudolan@163.com/FUDMonitor.git', :tag => s.version.to_s }
+  s.author           = { 'fudolan' => 'fudolan@163.com' }
+  s.source           = { :git => 'https://github.com/FX99/FUDMonitor.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'FUDMonitor/Classes/**/*'
+  s.source_files = 'FUDMonitor/**/*.{m,mm,h,c,cpp}'
   
   # s.resource_bundles = {
   #   'FUDMonitor' => ['FUDMonitor/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'FUDMonitor/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

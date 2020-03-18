@@ -1,0 +1,16 @@
+PODS:
+  - FUDMonitor (0.1.0)
+
+DEPENDENCIES:
+  - FUDMonitor (from `../`)
+
+EXTERNAL SOURCES:
+  FUDMonitor:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FUDMonitor: a87aa163be00c879c67be13ea930a83d8cd24264
+
+PODFILE CHECKSUM: d42b60033cddb16c4711d1f3c74865ca3171bd18
+
+COCOAPODS: 1.8.4
