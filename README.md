@@ -21,7 +21,7 @@ pod 'FUDMonitor', :path => 'path to FUDMonitor'
 
 ## Author
 
-fudolan@163.com, lanfudong@58.com
+fudolan@163.com
 
 ## License
 
